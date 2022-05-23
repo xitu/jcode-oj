@@ -1,6 +1,6 @@
 # JCODE-OJ
 
-这是[码上掘金](code.juejin.cn)用来维护习题集的代码仓库。
+这是[码上掘金](https://code.juejin.cn)用来维护习题集的代码仓库。
 
 习题保存在 `src` 目录下，分为描述题目的 Markdown 文档和判题的 JS 文件。
 
