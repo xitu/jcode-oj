@@ -1,9 +1,10 @@
 import {getModule, desc, expect} from '../lib';
 
 (async () => {
-  const {solve} = await getModule();
   const text = require('./array_sum.md');
   desc(text);
+
+  const {solve} = await getModule();
 
   expect('1,2,3', () => solve([1, 2, 3]), []);
   expect('1,8,9,-1,11', () => solve([1, 8, 9, -1, 11])
